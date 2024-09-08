@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Weatherpage.css'
+import './WeatherPage.css'
 
 const WeatherPage = () => {
   const { name } = useParams(); // Get cityName from URL parameters
