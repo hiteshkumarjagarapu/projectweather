@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.scrollable-container {
+  overflow-y: auto; /* Enables vertical scrolling */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+.scrollable-container::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+.custom-container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: blue; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-color: 1px solid black;
+}
+
+table, th, td {
+  border: 1px solid black;
+  
+  
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.weather-details {
+  margin-top: 20px;
+}
+
+.bg {
+  background-image: url("https://imgcdn.stablediffusionweb.com/2024/5/7/f5943c99-847a-4dcc-86e4-4532ff039abc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  background-attachment: fixed;
+  background-color: #f0f0f0; /* Fallback color */
+}
+
+.bgg {
+  
+  background-color: skyblue;
+}
+
+.bg1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  height: 30%;
+  width: 100%;
+}

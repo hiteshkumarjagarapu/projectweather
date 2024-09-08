@@ -1,0 +1,36 @@
+/* Reset default margins and paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  .weather-page {
+    width: 100vw;
+    height: 100vh;
+    background-color:skyblue; /* Example background color */
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .container-custom {
+    width: 100%;
+    margin: 0;
+    overflow-y: hidden;
+    background-size: cover;
+    
+    padding: 20px;
+    background-color: #ffc107; /* Example background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+  }
+  .bgg {
+  
+    background-color: skyblue;
+    background-size: cover;
+    
+  }
