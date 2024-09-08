@@ -6,11 +6,18 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://api.ciuvo.com', // Base URL of the actual API
+        target: 'https://api.ciuvo.com',
         changeOrigin: true,
         secure: false,
-        rewrite: (path) => path.replace(/^\/api/, ''), // Rewrites '/api' to ''
+        rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index1.html' // Correct path to index1.html
+      }
+    }
+  }
 });
