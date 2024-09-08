@@ -19,4 +19,4 @@ This is a simple weather forecast web application built using React, Axios, Boot
 ### Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hiteshkumarjagarapu/intelliclick
+   git clone https://github.com/hiteshkumarjagarapu/projectweather.git
